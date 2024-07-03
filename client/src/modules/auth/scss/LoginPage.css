@@ -1,0 +1,47 @@
+.sign-in-page {
+    width: 100%;
+    display: flex;
+    padding: 24px 36px;
+    background: #FFFFFF;
+}
+
+.sign-in-page .left-container ,
+.sign-in-page .right-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign-in-page .logIn-form {
+    width: 300px;
+}
+
+.sign-in-page .right-container img {
+    margin-top: 0;
+    height: 95vh;
+    border-radius: 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.sign-in-page .logIn-form h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .sign-in-page {
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .sign-in-page .right-container {
+        display: none;
+    }
+
+    .sign-in-page .left-container {
+        width: 100%;
+    }
+}
